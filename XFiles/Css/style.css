@@ -1,0 +1,207 @@
+body
+{
+  position: absolute;
+  bottom: 0;
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100%;
+  background: #4e5b6d;
+  background-size: 100px 50px;
+}
+
+.all
+{
+  position: relative;
+  min-height: 100%;
+  padding-top: 1%;
+}
+
+.header
+{
+  background: black;
+  display: flex;
+  height: auto;
+  width: auto;
+  margin: 0 2% 1% 2%;
+}
+
+.header .logo{
+  background: blue;
+  width: 20%;
+}
+
+.header img{
+  width: 100%;
+  height: 9em;
+}
+
+.header .titre{
+  width: 100%;
+  text-align: center;
+}
+
+.header .titre h1{
+  color: white;
+}
+
+.header .titre p{
+  color: white;
+}
+
+.content
+{
+  display: flex;
+  min-height: 30em;
+  height: auto;
+  width: 90%;
+  margin: 0 5% 3% 5%;
+}
+
+.menu-stat{
+  border-radius: 6px;
+  width: 26%
+}
+
+.nav
+{
+  border-radius: 6px;
+  align-self: flex-start;
+  padding: 10px;
+  overflow:auto;
+  background: #586888;
+}
+
+.statbase{
+  border:6px solid black;
+  margin-top: 2em;
+  padding: 10px;
+  overflow:auto;
+  background: #586888;
+}
+
+.main
+{
+  border-radius: 2px;
+	display:flex;
+	flex-direction:column;
+	flex-shrink:0;
+  color: #FFFFFF;
+  background: rgba(72,72,73);
+  overflow : auto ;
+  padding: 1em;
+  height: 100%;
+  width: 65%;
+  margin-left: 6%;
+}
+
+.footer
+{
+  bottom:0;
+  left:0;
+  background: black;
+  width: 100%;
+  height: auto;
+}
+
+.footer p
+{
+margin-bottom:0px;
+  color:white;
+}
+
+.tableQ table {
+  color: black;
+  border: 2px solid #aaaaaa;
+  letter-spacing: 1px;
+  font-size: 0.8rem;
+  margin : auto ;
+}
+
+.tableQ{
+	margin-top: 2em;
+	margin-left:auto;
+  margin-right: auto;
+	height: 50em;
+	width:80%;
+	overflow:auto;
+}
+
+.formJ{
+  display: inline-flex;
+  border-radius: 2px;
+  background-color: lightyellow;
+  color: #000000;
+  margin-top: 2em;
+  margin-left:auto;
+  margin-right: auto;
+  padding: 5px;
+  width: auto;
+  height: auto;
+}
+
+td, th {
+  text-align: center;
+  border: 2px solid #000000;
+  padding: 10px 20px;
+}
+
+td.default{
+  background-color: #FFFFFF;
+}
+
+td.joueur{
+  background-color: #0000FF;
+}
+
+td.defaultjoueur {
+	background-color: #FF0000;
+}
+
+td.joueurdefault {
+	background-color: #0000FF;
+}
+
+td.defaultdefault {
+	background-color: #FFFFFF;
+}
+
+td.joueurjoueur {
+	background-color: #00FF00;
+}
+.0 {
+padding : 20px ; 
+}
+
+.1 {
+padding : 100px ; 
+}
+
+.2 {
+padding : 200px ; 
+}
+
+.cellticket{
+	width: 35px;
+	height: 48px;
+}
+
+.menuJ{
+  border: 2px solid black;
+}
+
+.tableTicket{
+  background:lightgray;
+}
+
+.tableTicket table{
+  border: 2px solid black;
+}
+
+.cellticket{
+  background-position: center;
+}
+
+marquee p{
+  margin: 0;
+}
